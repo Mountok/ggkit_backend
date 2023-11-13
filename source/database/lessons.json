@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "name": "Что такое информатика?",
+        "type": "лекция",
+        "disabled": true,
+        "subjectId": 1,
+        "contentsId": 1
+    },
+    {
+        "id": 2,
+        "name": "Языки программирования",
+        "type": "лекция",
+        "disabled": true,
+        "subjectId": 1,
+        "contentsId": 2
+    },
+    {
+        "id": 3,
+        "name": "Что такое веб-разработка",
+        "type": "лекция",
+        "disabled": true,
+        "subjectId": 2,
+        "contentsId": 1
+    },
+    {
+        "id": 4,
+        "name": "HTML и CSS",
+        "type": "лекция",
+        "disabled": true,
+        "subjectId": 2,
+        "contentsId": 2
+    }
+]
