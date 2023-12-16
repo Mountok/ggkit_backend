@@ -18,6 +18,17 @@ const getStringFromHesh = (str) => {
     return charCodes
 }
 
+// * Функция дешифровки просто сущетсвует, скопировать и использовать вне проекта парамерт шированная строка
+// const getStringFromHesh = (str) => {
+//     let charCodes = str
+//         .split('#0#')
+//         .filter(value => value != 0 ? value : null)
+//         .map(value => String.fromCharCode((Number(value/2))))
+//         .join('');
+
+//     return charCodes
+// }
+
 module.exports = {
     getHeshOfString,
     getStringFromHesh,
